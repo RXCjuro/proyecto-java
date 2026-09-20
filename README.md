@@ -5,7 +5,7 @@ mi primer proyecto grupal de java
 # Integrantes:
 
 - richarx cjuro salhua
--
+- gerson aguirre cuya
 -
 -
 
