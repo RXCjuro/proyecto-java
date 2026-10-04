@@ -1,6 +1,6 @@
 package src.model;
 
-public class ClienteDescuento extends Cliente {
+public class ClienteDescuento extends Cliente1 {
 
     public ClienteDescuento(double compra, double edad, double tarjeta) {
         super(compra, edad, tarjeta);

@@ -1,11 +1,11 @@
 package src.model;
 
-public class Cliente {
+public class Cliente1 {
     protected double compra;
     protected double edad;
     protected double tarjeta;
 
-    public Cliente(double compra, double edad, double tarjeta) {
+    public Cliente1(double compra, double edad, double tarjeta) {
         this.compra = compra;
         this.edad = edad;
         this.tarjeta = tarjeta;

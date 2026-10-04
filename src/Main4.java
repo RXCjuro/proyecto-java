@@ -3,7 +3,7 @@ package src;
 import java.util.Scanner;
 import src.model.ClienteDescuento;
 
-public class Main {
+public class Main4 {
 
     public static void main(String[] args) {
 
