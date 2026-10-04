@@ -1,3 +1,5 @@
+package src.pharmacontrol;
+
 import java.util.Scanner;
 import src.model.ClienteDescuento;
 
