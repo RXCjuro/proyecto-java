@@ -1,8 +1,4 @@
 package src;
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f60de02f98ae6cc1eaa3948d61552ce0ac07759
 import java.util.Scanner;
 import src.model.MonitorTemperatura;
 
