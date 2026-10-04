@@ -1,4 +1,4 @@
-package src.pharmacontrol;
+package src;
 import java.util.Scanner;
 import src.model.MonitorTemperatura;
 
