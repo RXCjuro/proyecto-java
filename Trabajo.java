@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Trabajo {
     public static void main(String[] args) {
         try (Scanner trabajador = new Scanner(System.in)) {
-            
+
             // Definir la cantidad de trabajadores a registrar
             System.out.print("¿Cuántos trabajadores desea registrar?: ");
             int cantidadTrabajadores = trabajador.nextInt();
@@ -35,21 +35,24 @@ public class Trabajo {
 
                 // Guardar las variables originales en las columnas de la matriz
                 matrizAsistencia[i][0] = nombre;
-                matrizAsistencia[i][1] = horaingresoStr;
                 matrizAsistencia[i][2] = horaingreso;
                 matrizAsistencia[i][3] = horaentrada;
                 matrizAsistencia[i][4] = horalimite;
             }
 
             // 2. Salida de datos en formato TABLA
-            System.out.println("\n\n=========================================================================================");
-            System.out.println("                               REPORTE GENERAL DE ASISTENCIA                             ");
-            System.out.println("=========================================================================================");
-            
+            System.out.println(
+                    "\n\n=========================================================================================");
+            System.out.println(
+                    "                               REPORTE GENERAL DE ASISTENCIA                             ");
+            System.out.println(
+                    "=========================================================================================");
+
             // Cabecera de la tabla
-            System.out.printf("| %-6s | %-20s | %-12s | %-12s | %-12s | %-15s |\n", 
+            System.out.printf("| %-6s | %-20s | %-12s | %-12s | %-12s | %-15s |\n",
                     "POS.", "TRABAJADOR", "H. ENTRADA", "H. LÍMITE", "H. REGISTRO", "ESTADO");
-            System.out.println("-----------------------------------------------------------------------------------------");
+            System.out.println(
+                    "-----------------------------------------------------------------------------------------");
 
             for (int i = 0; i < cantidadTrabajadores; i++) {
                 // Recuperamos los valores de la matriz asignándolos a tus variables originales
@@ -67,10 +70,11 @@ public class Trabajo {
                 }
 
                 // Imprimir la fila alineada en columnas
-                System.out.printf("| Fila[%d] | %-20s | %-12s | %-12s | %-12s | %-15s |\n", 
+                System.out.printf("| Fila[%d] | %-20s | %-12s | %-12s | %-12s | %-15s |\n",
                         i, nombre, horaentrada, horalimite, horaingreso, estado);
             }
-            System.out.println("=========================================================================================");
+            System.out.println(
+                    "=========================================================================================");
         }
     }
 }
