@@ -1,4 +1,5 @@
-package src.pharmacontrol;
+package src;
+
 import java.util.Scanner;
 import src.model.MonitorTemperatura;
 
@@ -10,16 +11,15 @@ public class Main3 {
 
         System.out.println("=== MONITOR DE TEMPERATURA ===");
 
-        MonitorTemperatura[][] temperaturas =
-                new MonitorTemperatura[3][3];
+        MonitorTemperatura[][] temperaturas = new MonitorTemperatura[3][3];
 
         int optimas = 0;
         int fueraRango = 0;
 
         String[] horarios = {
-            "Mañana",
-            "Mediodía",
-            "Noche"
+                "Mañana",
+                "Mediodía",
+                "Noche"
         };
 
         for (int i = 0; i < 3; i++) {
@@ -29,14 +29,12 @@ public class Main3 {
             for (int j = 0; j < 3; j++) {
 
                 System.out.print(
-                    "Ingrese temperatura de "
-                    + horarios[j] + ": "
-                );
+                        "Ingrese temperatura de "
+                                + horarios[j] + ": ");
 
                 double valor = entrada.nextDouble();
 
-                temperaturas[i][j] =
-                        new MonitorTemperatura(valor);
+                temperaturas[i][j] = new MonitorTemperatura(valor);
 
                 temperaturas[i][j].mostrarResultado();
 
@@ -53,12 +51,10 @@ public class Main3 {
         System.out.println("==============================");
 
         System.out.println(
-            "Temperaturas óptimas: " + optimas
-        );
+                "Temperaturas óptimas: " + optimas);
 
         System.out.println(
-            "Temperaturas fuera de rango: " + fueraRango
-        );
+                "Temperaturas fuera de rango: " + fueraRango);
 
         entrada.close();
     }
