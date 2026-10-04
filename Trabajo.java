@@ -54,7 +54,6 @@ public class Trabajo {
             for (int i = 0; i < cantidadTrabajadores; i++) {
                 // Recuperamos los valores de la matriz asignándolos a tus variables originales
                 String nombre = (String) matrizAsistencia[i][0];
-                String horaingresoStr = (String) matrizAsistencia[i][1];
                 LocalTime horaingreso = (LocalTime) matrizAsistencia[i][2];
                 LocalTime horaentrada = (LocalTime) matrizAsistencia[i][3];
                 LocalTime horalimite = (LocalTime) matrizAsistencia[i][4];
