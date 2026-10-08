@@ -1,7 +1,8 @@
 package src;
 
 import java.util.Scanner;
-import src.model.ProductoDescuento;
+
+import producto.ProductoDescuento;
 
 public class Mainjava1 {
     public static void main(String[] args) {

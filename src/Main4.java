@@ -1,7 +1,8 @@
 package src;
 
 import java.util.Scanner;
-import src.model.ClienteDescuento;
+
+import cliente.ClienteDescuento;
 
 public class Main4 {
 

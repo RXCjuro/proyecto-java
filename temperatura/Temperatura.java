@@ -1,4 +1,4 @@
-package src.model;
+package temperatura;
 
 public class Temperatura {
 

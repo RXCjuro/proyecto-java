@@ -1,4 +1,4 @@
-package src.model;
+package cliente;
 
 public class ClienteDescuento extends Cliente1 {
 

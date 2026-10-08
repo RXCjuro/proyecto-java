@@ -1,6 +1,7 @@
 package src;
 import java.util.Scanner;
-import src.model.MonitorTemperatura;
+
+import temperatura.MonitorTemperatura;
 
 public class Main3 {
 

@@ -1,4 +1,4 @@
-package src.model;
+package producto;
 
 public class ProductoInventario {
     // Atributos protegidos para que el hijo pueda acceder a ellos

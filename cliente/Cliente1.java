@@ -1,4 +1,4 @@
-package src.model;
+package cliente;
 
 public class Cliente1 {
     protected double compra;

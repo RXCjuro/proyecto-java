@@ -1,4 +1,4 @@
-package src.model;
+package producto;
 
 public class Productos {
     

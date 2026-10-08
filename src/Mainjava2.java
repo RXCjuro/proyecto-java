@@ -2,7 +2,8 @@ package src;
 
 import java.time.LocalTime;
 import java.util.Scanner;
-import src.model.AsistenciaEstado;
+
+import asistencia.AsistenciaEstado;
 
 public class Mainjava2 {
     public static void main(String[] args) {
